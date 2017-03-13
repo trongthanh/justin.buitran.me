@@ -1,0 +1,810 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Justin Portfolio</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
+       Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects; 
+       for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+  <div id="preloader">
+    <img src="img/preloader-wheel.gif" width="50" height="50" alt="Loading..." />
+  </div>
+  <script src="js/preloader.js"></script>
+
+  <header class="navigation">
+    <nav id="main-nav">
+      <ul>
+        <li><a href="#about-me">About Me</a> /</li>
+        <li><a href="#works">Works</a> /</li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- <div id="debug">
+      <span class="line1">debug line 1</span><br/>
+      <span class="line2">debug line 2</span><br/>
+      <span class="line3">debug line 3</span>
+    </div> -->
+  </header>
+  <div role="main" class="main-container">
+    <div class="layer-container">
+      <div id="bg-far" class="bg-far">
+        <div id="sea-layer" class="bg-far-layer" ></div>
+        <div id="sky-layer" class="bg-far-layer" ></div>
+      </div>
+      <div id="slide-container" class="slide-container">
+        <section id="s0" class="slide">
+          <div class="bg-near">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <img src="img/slide-00/bg_cloud_331-144.png" width="977" height="449" alt=""
+                    style="left: 331px;top: 144px;" />
+            <img src="img/cloud_1.png"  width="300" height="147" alt=""
+                    style="left: 300px;top: 147px;" />
+            <img src="img/slide-00/bg_plane_1272-471.png"  width="72" height="19" alt=""
+                    style="left: 1272px;top: 271px;" />
+             <div class="para-text-white" style=" left: 820px; top: 150px; font-size:30px"> Welcome to</div>
+          </div>
+          <div class="slide-content">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <div class="waterfall" style="left: 240px;top: 215px;"/>
+              <div class="waterfall-bg-left" ></div>
+              <div class="waterfall-bg-right" ></div>
+              <div class="waterfall-loop loop-left" ></div>
+              <div class="waterfall-loop loop-right" ></div>
+            </div>
+            <img src="img/slide-00/justin-island-01.png" width="1362" height="547" alt="slide content"
+                    style="left: 242px;top: 215px;"/>
+            <div id="bird-frame-1" style="width:1900px;height:1200px;"></div>
+          </div>
+          <div class="foreground">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <img src="img/cloud_1.png" width="576" height="250" alt="fg"
+                    style="left: 1400px;top: 450px;"/>
+          </div>
+        </section>
+        <section id="s1" class="slide">
+          <div class="bg-near">
+            <!-- nil -->
+          </div>
+          <div id="about-me" class="slide-content">
+            <!-- TODO: convert to CSS3 multiple background -->
+    
+            <img src="img/slide-01/justin-island-02.png" width="1362" height="800" alt="slide content"
+                    style="left: 242px;top: 52px;"/>
+               <div class="waterfall-1" style="left: 240px;top: 215px;"/>
+              <div class="waterfall-bg-left-1" ></div>
+              <div class="waterfall-bg-right-1" ></div>
+              <div class="waterfall-loop-1 loop-left-1" ></div>
+              <div class="waterfall-loop-1 loop-right-1" ></div>
+            </div>
+            <img src="img/cloud_1.png" width="300" height="147" alt="cloud" 
+            						style="left:700px; top:720px">
+            <h1 class="title-big" style=" left:700px; top: 100px;"> hello</h1>
+            <div class="para-text" style="left: 700px;top: 250px;width: 556px">
+              I&lsquo;m Justin Bui Tran, an experienced art director and senior web designer. Digital media is my passion, and I always try to focus my abilities on meeting the clients’ needs, the direction their companies are heading and the successes they can achieve.
+            </div>
+          </div>
+          <div class="foreground">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <img src="img/cloud_1.png" width="436" height="197" alt=""
+                    style="left: 1142px;top: 661px;" />
+            <img src="img/slide-01/fg_airplane_1460-438.png" width="393" height="112" alt=""
+                    id="s01-airplane" />
+          </div>
+        </section>
+        <section id="s2" class="slide">
+          <div class="bg-near">
+            <img src="img/slide-02/bg_island2011.png" width="1200" height="501" alt=""
+                    style="left: 10px;top: 380px;" />
+          </div>
+          <div class="slide-content">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <div class="para-text" style="left:980px;top:0px;width: 500px"> I believe that ideas and concepts can come from everywhere and anywhere – that creativity naturally comes from an open mind. Maybe that’s why I love to explore different corners and angles of view in life, and see where they lead.
+            <br>
+            In addition to art and design, travelling, nature and sport are all very important to me. When I was a child, I always dreamed about a place where we could live, walk and play among the clouds. In my dreams it was always a bright and colourful world, close to nature and fresh air. Always a refreshing escape from the ordinary. Welcome to my world…</div>
+          </div>
+          <div class="foreground">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <img src="img/slide-02/fg_plane_1227-280.png" width="447" height="235" alt=""
+                    id="s02-airplane" />
+            <img src="img/slide-02/fg_birds_310-2164.png" width="578" height="642" alt=""
+                    style="left:0;top: 180px;" />
+             
+          </div>
+        </section>
+        <section id="s3" class="slide">
+          <div class="bg-near">
+            <!-- TODO: convert to CSS3 multiple background -->
+			      <img src="img/slide-03/bg_bigisland-0-2765.png" width="875" height="840" alt="slide content"
+                    style="left: 0;top: 610px;"/>
+          </div>
+          <div class="slide-content">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <div id="works" style="left: 705px;top:-100px;width:520px;">
+              <h1 class="title-big">intel</h1>
+              <div class="para-text">From 2011 to the present much of my work is for Intel, one of the most successful technology companies in the world, for numerous campaigns spread across Southeast Asia. Intel is always challenging, always interesting. The target audience is often very broad, and not restricted to any particular age or level of technological knowledge. My work needs to cover every kind of audience and user experience. And of course, when delivering ideas to the client, everything needs to follow very strict guidelines.</div>
+              <a href="#intel" class="check-btn">
+                <span class="check-btn-text">check it out</span>
+                <span class="check-btn-slide-text">-></span>
+              </a>
+            </div>
+            <img src="img/slide-03/bg_island.png" width="291" height="210" alt="slide content"
+                    style="left: 1203px;top: 504px;"/>
+          </div>
+          <div class="foreground">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <img src="img/cloud_1.png" width="1060" height="418" alt="slide content"
+                    style="left: 1269px;top: 0;"/>
+            <img src="img/slide-03/fg_skydivingman_803-194.png" width="317" height="248" alt="slide content"
+                    style="left: 303px;top: 4px;"/>
+           
+            <img src="img/slide-03/fg_egal_885-3467.png" width="150" height="128" alt="slide content"
+                    style="left: 503px;top: 1094px;"/>
+        		<img src="img/cloud_1.png" width="216" height="103" alt="slide content"
+                    style="left: 303px;top: 1694px;"/>
+            <img src="img/slide-04/fg_goftball.png" width="211" height="275" alt="slide content"
+                    style="left: 1380px; top:300px;"/>
+          </div>
+        </section>
+        <section id="s4" class="slide">
+          <div class="bg-near">
+         		<img src="img/slide-04/bg_bigisland_0-3600.png" width="1590" height="745" alt="slide content"
+                    style="left: 0px; top:1000px;"/>
+          </div>
+          <div class="slide-content">
+			<!-- TODO: convert to CSS3 multiple background -->
+            <div id="bird-frame-2" style="width:1900px;height:1200px;"></div>
+            <div class="para-text" style="left:825px;top:-100px;width: 240px;">
+            <h1 class="title-small">zorok</h1>
+            Zorok Mini Champion Cup, a campaign for Zorok (Vietnam) beer, was developed to support and encourage participation in Vietnam’s growing football clubs by finding young talent. (As well as raise awareness of Zorok beer and have it associated with football.) I was responsible for the digital campaign, which mainly focussed on driving the campaign traffic to Zorok’s microsite and social media networks.
+            <a href="#zorok" class="check-btn" >
+              <span class="check-btn-text">check it out</span>
+              <span class="check-btn-slide-text">-></span>
+            </a>
+            </div>
+            <div class="para-text" style="left:1188px;top:-100px;width:350px;">
+              <h1 class="title-small">mon wine</h1>
+              <p>To build the brand for the Mon Win wine shop, the idea was to reinforce the way wine lets you express your individual tastes, and is best enjoyed with great friends and good food. The emphasis was on creating an impression of natural enjoyment, a soft and calm feeling, while increasing the desire to be with your friends and chill out with a bottle from Mon Wine.</p>
+              <a href="#monwine" class="check-btn" >
+                <span class="check-btn-text">check it out</span>
+                <span class="check-btn-slide-text">-></span>
+              </a>
+            </div>
+          </div>
+          <div class="foreground">
+          <img src="img/slide-04/fg_eagle_107-735.png" width="386" height="295" alt="slide content"
+                    id= "s04-eagle"/>
+          </div>
+        </section>
+        <section id="s5" class="slide">
+          <div class="bg-near">
+            <img src="img/slide-05/bg_airplane-987-4991.png" width="591" height="183" alt="slide content"
+                 id="s05-airplane"/>
+          </div>
+          <div class="slide-content">
+          <!-- TODO: fix  semantic --> 
+            <div class="para-text" style=" left: 800px; top: -100px; width: 800px">
+            <h1 class="title-big">in2ideas</h1>
+            <p style="margin-left:0; margin-top: 0; width:400px;">Collection of my exciting works that I did for in2Ideas.</p>
+            <a href="#in2" class="check-btn" >
+              <span class="check-btn-text">check it out</span>
+              <span class="check-btn-slide-text">-></span>
+            </a>
+            </div>
+
+            <div class="para-text" style=" left:467px; top: 852px; width:868px;">
+            <h1 class="title-medium">vncreative <span class="title-small">group</span></h1>
+            <p style=" width:650px; margin-left:10px;">Creatives love to share their work. To see who dares to be different, who pushes the limits of what is possible to create, who proudly calls what work their own something they are proud to call their own. And of course, creatives love to see how they stack up against their peers. Vn Creative was designed to connect people living and working in the creative field. Although they’re a group with an eye on Vietnam, VN Creative has no geographical boundaries.</p>
+            <a href="#creative-group" class="check-btn" style="margin-left:10px">
+              <span class="check-btn-text">check it out</span>
+              <span class="check-btn-slide-text">-></span>
+            </a>
+            </div>
+           
+          </div>
+          <div class="foreground">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <img src="img/slide-05/fg_cloud_0-480.png" width="570" height="420" alt="slide content"
+                    style="left: 0;top: 480px;"/>
+            <img src="img/slide-05/fg_cloud_left.png" width="826" height="485" alt="slide content"
+                    style="left: 1300px;top: 780px;"/>
+             <img src="img/slide-05/fg_cloud_right.png" width="894" height="694" alt="slide content"
+                    style="left: -50px;top: 480px;"/>
+            
+          </div>
+        </section>
+        <section id="s6" class="slide">
+          <div class="bg-near">
+          </div>
+          <div class="slide-content">
+			<!-- TODO: fix semantic -->
+          	<div class="para-text" style="left:470px; top:664px; width:396px; height:245px;">
+            	<h1 class="title-small">vinamit<span style="font-size:30px"> </span></h1>
+              This website design was to launch the drink Tomeli, a new brand by Vinamit featuring various delicious flavours. The idea was to try and give people the feeling they were out in the countryside and on the dairy farm, since natural and farm-fresh were key USPs to engage people increasingly looking for healthy food options due to their less-than-healthy urban lifestyles.
+              <a href="#vinamit" class="check-btn" >
+                <span class="check-btn-text">check it out</span>
+                <span class="check-btn-slide-text">-></span>
+              </a>
+            </div>
+           	<div class="para-text" style="left:970px; top:664px; width:496px; height:245px;">
+            	<h1 class="title-small">vespa</h1>
+              <span style="width:396px">To build Vespa’s brand perception as the only stylish (and most reliable) option in Vietnam, a country where the streets are literally clogged with small-bore motorcycles, a most stylish route was chosen. Fashion. Glamour. Icon. Your partner on the road, wherever that road may take you.</span>
+               <a href="#vespa" class="check-btn" >
+                 <span class="check-btn-text">check it out</span>
+                 <span class="check-btn-slide-text">-></span>
+               </a>
+            </div>
+           </div> 	
+          <div class="foreground">
+
+          </div>
+        </section>
+        <section id="s7" class="slide">
+          <div class="bg-near">
+            <!-- TODO: convert to CSS3 multiple background -->
+            <img src="img/slide-07/bg_snowkater_867-6752.png" width="581" height="431" alt="slide content"
+                    id="s07-snowskeater"/>
+          </div>
+          <div class="slide-content">
+              <h1 class="title-big" style="left:470px; top:400px; width:994px;">miller <span class="title-medium"> beer</span></h1>
+              <div class="para-text" style="left:850px; top:550px; width:500px;">
+                <p>Street food and beer is an integral part of Vietnamese culture. Get together after work, chill out, share funny stories, catch up on current gossip and lament the latest sport news. The idea was to create a Miller-Zorok Football community where people could connect, share fun stories and exchange knowledge about football with each other... and the rest of the world.</p>
+                <a href="#sabmiller" class="check-btn" >
+                <span class="check-btn-text">check it out</span>
+                <span class="check-btn-slide-text">-></span>
+                </a>
+              </div>
+            </div>
+          <div class="foreground">
+            <!-- TODO: convert to CSS3 multiple background -->
+						<img src="img/cloud_1.png" width="894" height="425" alt="slide content"
+                    style="left: -300px;top: 464px;"/>
+            <img src="img/cloud_1.png" width="772" height="489" alt="slide content"
+                    style="left: 1022px ;top: 144px;"/>
+          </div>
+        </section>
+        <section id="s8" class="slide">
+          <div id="mountain-bg" class="bg-near">
+            <!--[if lte IE 8]>            
+            <![endif]-->
+            <img src="img/slide-08/bg_0-7200_scaled.png" width="1900" height="1100" alt="slide content"
+                 style="left: 0;top: 0;"/>
+          </div>
+          <div class="slide-content">
+            <img src="img/slide-08/content_0-7859.png" width="1900" height="245" alt="slide content"
+                 style="left: 0;top: 856px;"/>
+            <h1 class="title-big" style="left:470px; top:400px; width:994px;">pitches</h1>
+            <div class="para-text-white" style="left:880px; top:550px; width:500px;">
+              <a href="#pitches" class="check-btn" >
+                <span class="check-btn-text">check it out</span>
+                <span class="check-btn-slide-text">-></span>
+              </a>
+            </div>
+          </div>
+             
+          <div class="foreground"></div>
+        </section>
+        <section id="s9" class="slide">
+          <div class="bg-near">
+           	<img src="img/slide-10/bg_bien_2_-310-8319-scaled.png" width="1900" height="900" alt="slide content"
+                    style="left:0px;top:500px;"/>
+          </div>
+          <div class="slide-content">
+            <img src="img/slide-09/content_0-8100.png" width="1900" height="394" alt="slide content"
+                 style="left: 0;top: 200px;"/>
+            <img src="img/slide-09/fg_water_0-8100.png" width="1900" height="900" alt="slide content"
+                 style="left: -5px;top: 180px;"/>
+          </div>
+          <div class="foreground">
+          		<div class="para-text" style="left:364px; top:600px;">
+                	<h1 class="title-big-white"> OTHER</h1>
+                    <h1 class="title-big-white">WORKS</h1>
+                </div>
+                <div class="angsai-webfont" style="top:800px; left: 580px;"> <a href="#illustrations" class="other-client-link">illustrations</a></div>
+            <div class="angsai-webfont" style="top:870px; left: 630px;"> <a href="#tiger-gate" class="other-client-link">tigergate</a></div>
+			<div class="angsai-webfont" style="top:940px; left: 680px;"> <a href="#phanner-pie" class="other-client-link">phanner pie</a></div>	
+            <div class="angsai-webfont" style="top:1010px; left: 730px;"><a href="#interface-design" class="other-client-link">interface design</a></div>			
+             <div class="angsai-webfont" style="top:1080px; left: 780px;"><a href="#motion" class="other-client-link">motion</a></div>			
+          </div>
+        </section>
+        <section id="s10" class="slide">
+          <div class="bg-near">
+ 								<img src="img/slide-11/content_phonebooth_810-11070.png" width="496" height="650" alt="slide content"
+                style="left: 1150px ; top: -50px;"/>
+          </div>
+          <div id="contact" class="slide-content">
+       		<img src="img/slide-10/content_-0-9312.png" width="1898" height="478" alt="slide content"
+                    style="left:0px;top: 100px;"/></div>
+          <div class="foreground">
+            <div class="para-text" style="left:468px; top:0">
+              <h1 class="title-medium-white">CONTACT ME</h1>
+              <p class="geosans"> i'm avaible to talk by telephone, email or video chat</p>
+            </div>
+            <img src="img/slide-10/bg_conrua_1150-8788.png" width="376" height="182" alt="slide content"
+                    style="left: 1150px ; top: 700px;"/>
+                
+          </div>
+        </section>
+        <section id="s11" class="slide">
+          <div class="bg-near">
+          	<img src="img/slide-11/bg_310-9900.jpg" width="1900" height="900" alt="slide content"
+                    style="left:0;top:100px;"/>
+          </div>
+          <div class="slide-content">
+              <div id="fish-frame" style="width:1900px;height:900px;"></div>
+          </div>
+          <div class="foreground">
+           
+            <div class="para-text-white" style=" left:990px; top:-650px"> <span class="angsai-webfont" style="font-size: 25px;">email:</span> <a href="mailto:long.btp.phoenix@gmail.com" class="geosans" style="font-size:25px;">long.btp.phoenix@gmail.com</a></div>
+            <div class="para-text-white" style=" left:1100px; top:-550px; width:400px"> <p><span class="angsai-webfont" style="font-size: 25px;">tel:</span> <span class="geosans" style="font-size:25px;">927 297 66 </span></p></div>
+
+            <div class="para-text-white" style=" left:1140px; top:-500px; width:500px;"><p><span class="geosans" style="font-size:25px;">visit more of my work on</span></p>
+            </div>
+            <div class="para-text-white" style=" left:1140px; top:-450px; width:600px;"><a href="http://www.behance.net/justinbuitran" class="angsai-webfont" style="font-size: 30px;">behance.net/justinbuitran</a></div>
+
+            <div class="geosans" style=" left:640px; top:550px; width:1500px; font-size: 20px;">appreciate my buddy <a href="http://int3ractive.com" target="_blank" class="angsai-webfont" style="font-size:50px">Tran Trong Thanh</a> for helping me on coding...</div>
+            
+            <div class="geosans" style=" left:900px; top:650px; width:1500px; font-size: 15px;">©2011, Justin Bui tran</div>
+
+            </div>
+        </section>
+      </div>
+    </div> <!-- end layer container -->
+  </div> <!-- end main container -->
+
+  <section id="portfolio" class="portfolio">
+    <a id="port-close-btn" href="" class="close-btn" >Close</a>
+    <div id="image-container"><img class="loading-wheel" src="img/loading-wheel.gif" width="32" height="32" alt="loading" ></div>
+    <ul id="image-switcher" class="image-page-list">
+      <!-- to be filled in -->
+    </ul>
+    <div class="project-container">
+      <div class="project-list-container">
+        <ul id="project-list" class="project-list">
+          <!-- to be filled -->
+        </ul>
+      </div>
+    </div>
+    <div id="client-slider" class="client-slider">
+      <!-- to be filled by code -->
+    </div>
+  </section>
+
+  <article class="data">
+    <h1>Justin Portfolio</h1>
+    <ol>
+    <li><section class="client">
+      <h2 data-width="112">Intel</h2>
+      <ol class="projects">
+        <li>
+          <h3>Intel Aje! (Malaysia)</h3>
+          <ul class="project-images">
+            <li><a href="http://www.youtube.com/watch?v=2ant-uiBmZQ">Video 1</a></li>
+            <li><a href="http://www.youtube.com/watch?v=dC1ahmNPnGk">Video 2</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-aje-malaysia/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-aje-malaysia/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-aje-malaysia/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-aje-malaysia/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-aje-malaysia/05.jpg">Photo 5</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Intel APAC Sales Tool</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/01-intel/intel-apac-sales-tool/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-apac-sales-tool/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-apac-sales-tool/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-apac-sales-tool/04.jpg">Photo 4</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Intel ISS</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/01-intel/intel-apac-sales-tool/01.jpg">Photo 1</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Intel Training Center</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/01-intel/intel-training-center/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-training-center/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-training-center/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-training-center/04.jpg">Photo 4</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Intel Turbo Race</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/06.jpg">Photo 6</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/07.jpg">Photo 7</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/08.jpg">Photo 8</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/09.jpg">Photo 9</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/10.jpg">Photo 10</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/11.jpg">Photo 11</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/12.jpg">Photo 12</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/13.jpg">Photo 13</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/14.jpg">Photo 14</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/15.jpg">Photo 15</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/16.jpg">Photo 16</a></li>
+            <li><a href="img/portfolio/works/01-intel/intel-turbo-race/17.jpg">Photo 17</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="249">Weemesh</h2>
+      <ol class="projects">
+        <li>
+          <h3>Weemesh</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/02-weemesh/weemesh/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/02-weemesh/weemesh/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/02-weemesh/weemesh/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/02-weemesh/weemesh/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/02-weemesh/weemesh/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/02-weemesh/weemesh/06.jpg">Photo 6</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="194">Vinamit</h2>
+      <ol class="projects">
+        <li>
+          <h3>Vinamit</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/03-vinamit/vinamit/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/03-vinamit/vinamit/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/03-vinamit/vinamit/03.jpg">Photo 3</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="146">Zorok</h2>
+      <ol class="projects">
+        <li>
+          <h3>Zorok</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/04-zorok/zorok/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/04-zorok/zorok/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/04-zorok/zorok/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/04-zorok/zorok/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/04-zorok/zorok/06.jpg">Photo 6</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="238">Sabmiller</h2>
+      <ol class="projects">
+        <li>
+          <h3>Sabmiller</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/05-sabmiller/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/05-sabmiller/02.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/05-sabmiller/03.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/05-sabmiller/04.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/05-sabmiller/05.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/05-sabmiller/06.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/05-sabmiller/07.jpg">Photo 1</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="224">Monwine</h2>
+      <ol class="projects">
+        <li>
+          <h3>Monwine</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/06-monwine/monwine/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/06-monwine/monwine/07.jpg">Photo 7</a></li>
+            <li><a href="img/portfolio/works/06-monwine/monwine/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/06-monwine/monwine/06.jpg">Photo 6</a></li>
+            <li><a href="img/portfolio/works/06-monwine/monwine/08.jpg">Photo 8</a></li>
+            <li><a href="img/portfolio/works/06-monwine/monwine/09.jpg">Photo 9</a></li>
+            <li><a href="img/portfolio/works/06-monwine/monwine/10.jpg">Photo 10</a></li>
+            <li><a href="img/portfolio/works/06-monwine/monwine/11.jpg">Photo 11</a></li>
+            <li><a href="img/portfolio/works/06-monwine/monwine/12.jpg">Photo 12</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="154">Vespa</h2>
+      <ol class="projects">
+        <li>
+          <h3>Vespa</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/07-vespa/vespa/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/07-vespa/vespa/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/07-vespa/vespa/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/07-vespa/vespa/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/07-vespa/vespa/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/07-vespa/vespa/06.jpg">Photo 6</a></li>
+            <li><a href="img/portfolio/works/07-vespa/vespa/07.jpg">Photo 7</a></li>
+            <li><a href="img/portfolio/works/07-vespa/vespa/08.jpg">Photo 8</a></li>
+            <li><a href="img/portfolio/works/07-vespa/vespa/09.jpg">Photo 9</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="384">Creative Group</h2>
+      <ol class="projects">
+        <li>
+          <h3>Creative Group</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/01.jpg">Photo 1</a></li>
+           
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/06.jpg">Photo 6</a></li>
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/07.jpg">Photo 7</a></li>
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/08.jpg">Photo 8</a></li>
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/09.jpg">Photo 9</a></li>
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/10.jpg">Photo 10</a></li>
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/11.jpg">Photo 11</a></li>
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/12.jpg">Photo 12</a></li>
+            <li><a href="img/portfolio/works/08-creative-group/creative-group/13.jpg">Photo 13</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="143">&nbsp; In2 &nbsp;</h2>
+      <ol class="projects">
+        <li>
+          <h3>In2 Interactive Profile</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/09-in2/01-in2-interactive-profile/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/09-in2/01-in2-interactive-profile/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/09-in2/01-in2-interactive-profile/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/09-in2/01-in2-interactive-profile/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/09-in2/01-in2-interactive-profile/05.jpg">Photo 5</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>In2 Moving EDM</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/09-in2/02-in2-moving/edm-moving.swf">Photo 1</a></li>
+                    </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="296">Illustrations</h2>
+      <ol class="projects">
+        <li>
+          <h3>The Town</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/10-illustrations/thetown/01.png">Photo 1</a></li>
+            <li><a href="img/portfolio/works/10-illustrations/thetown/02.png">Photo 2</a></li>
+            <li><a href="img/portfolio/works/10-illustrations/thetown/03.png">Photo 3</a></li>
+            <li><a href="img/portfolio/works/10-illustrations/thetown/04.png">Photo 4</a></li>
+            <li><a href="img/portfolio/works/10-illustrations/thetown/05.png">Photo 5</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="266">Tiger Gate</h2>
+      <ol class="projects">
+        <li>
+          <h3>Tiger Gate</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/11-tigergate/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/11-tigergate/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/11-tigergate/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/11-tigergate/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/11-tigergate/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/11-tigergate/06.jpg">Photo 6</a></li>
+            <li><a href="img/portfolio/works/11-tigergate/07.jpg">Photo 7</a></li>
+          
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="300">Phanner Pie</h2>
+      <ol class="projects">
+        <li>
+          <h3>Phanner Pie</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/12-phannerpie/phannerpie/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/12-phannerpie/phannerpie/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/12-phannerpie/phannerpie/03.jpg">Photo 3</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="455">Interface Design</h2>
+      <ol class="projects">
+        <li>
+          <h3>EDM</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/13-interface-design/edm/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/13-interface-design/edm/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/13-interface-design/edm/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/13-interface-design/edm/04.jpg">Photo 4</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Let's Play</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/13-interface-design/lets-play/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/13-interface-design/lets-play/02.jpg">Photo 2</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Risk Quotient</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/13-interface-design/risk-quotient/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/13-interface-design/risk-quotient/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/13-interface-design/risk-quotient/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/13-interface-design/risk-quotient/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/13-interface-design/risk-quotient/05.jpg">Photo 5</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    <li><section class="client">
+      <h2 data-width="206">Pitches</h2>
+      <ol class="projects">
+      <li>
+          <h3>Archipelago</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/14-pitches/archipelago/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/14-pitches/archipelago/02.jpg">Photo 2</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Ivy Bridge pitch</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/06.jpg">Photo 6</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/07.jpg">Photo 7</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/08.jpg">Photo 8</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/09.jpg">Photo 9</a></li>
+            <li><a href="img/portfolio/works/14-pitches/ivy-brigde-pitch/10.jpg">Photo 10</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>McAfee Boot Camp</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/06.jpg">Photo 6</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/07.jpg">Photo 7</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/08.jpg">Photo 8</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/09.jpg">Photo 9</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/10.jpg">Photo 10</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/11.jpg">Photo 11</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/12.jpg">Photo 12</a></li>
+            <li><a href="img/portfolio/works/14-pitches/mc-afee-boot-camp/13.jpg">Photo 13</a></li>
+          </ul>
+        </li>
+         <li>
+          <h3>Sony Anime Chanel</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/14-pitches/sony-anime-chanel/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/14-pitches/sony-anime-chanel/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/14-pitches/sony-anime-chanel/03.jpg">Photo 3</a></li>
+    
+          </ul>
+        </li>
+        <li>
+          <h3>Yellow Ribbon</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/14-pitches/yellow-ribbon/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/14-pitches/yellow-ribbon/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/14-pitches/yellow-ribbon/03.jpg">Photo 3</a></li>
+            <li><a href="img/portfolio/works/14-pitches/yellow-ribbon/04.jpg">Photo 4</a></li>
+            <li><a href="img/portfolio/works/14-pitches/yellow-ribbon/05.jpg">Photo 5</a></li>
+            <li><a href="img/portfolio/works/14-pitches/yellow-ribbon/06.jpg">Photo 6</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+    </ol>
+     <li><section class="client">
+      <h2 data-width="184">Motion</h2>
+      <ol class="projects">
+        <li>
+          <h3>Motion</h3>
+          <ul class="project-images">
+            <li><a href="img/portfolio/works/12-phannerpie/phannerpie/01.jpg">Photo 1</a></li>
+            <li><a href="img/portfolio/works/12-phannerpie/phannerpie/02.jpg">Photo 2</a></li>
+            <li><a href="img/portfolio/works/12-phannerpie/phannerpie/03.jpg">Photo 3</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section></li>
+  </article>
+  <footer>
+
+  </footer>
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's Mootools, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+  <script>window.MooTools || document.write('<script src="js/libs/mootools-core-1.4.5-full-compat.js"><\/script>');</script>
+  <!-- some external library -->
+  <script src="js/libs/three-r46.js"></script>
+
+  <!-- scripts concatenated and minified via build script -->
+  <script src="js/mylibs/RequestAnimationFrame.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/mylibs/Bird.js"></script>
+  <script src="js/mylibs/Fish.js"></script>
+  <script src="js/mylibs/Boid.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/main-app.js"></script>
+  <!-- end scripts -->
+
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-31108160-1']);
+    _gaq.push(['_setDomainName', 'buitran.me']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>
